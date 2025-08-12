@@ -32,5 +32,5 @@ def save_to_readme(folders, output_file="README.md"):
 
 
 # 获取当前目录下特定两个文件夹的结构
-folders = ["Listing运营", "亚马逊广告运营"]
+folders = ["Listing运营", "亚马逊广告运营","DeepBI其它优势"]
 save_to_readme(folders)
