@@ -3,7 +3,6 @@
 ## Listing运营 文件夹结构
 
 ```
-├── img.png
 ├── Listing运营策略/
   ├── Listing中五点描述的写作技巧.md
   ├── Listing中搜索关键词的布局策略.md
