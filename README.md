@@ -41,90 +41,101 @@ This whitepaper serves as a complete guide for Amazon advertising operations, in
 
 ## en-US Directory Structure
 
-```
-en-US/
-├── amazon-advertising/
-│   ├── advertising-fundamentals/
-│   │   ├── ad-display-ranking-quality-score.md
-│   │   ├── advertising-principles/
-│   │   │   └── amazon-advertising-conversion-logic-and-factors.md
-│   │   ├── basic-definitions.md
-│   │   ├── budget.md
-│   │   ├── evaluation-metrics.md
-│   │   ├── products-suitable-for-ppc/
-│   │   │   ├── products-not-suitable-for-ppc-ads.md
-│   │   │   ├── products-suitable-for-ppc-ads.md
-│   │   │   └── summary.md
-│   │   ├── three-ad-types/
-│   │   │   ├── sp-ad-operating-characteristics/
-│   │   │   │   ├── asin-advertising-fundamentals.md
-│   │   │   │   ├── auto-ad-operating-characteristics.md
-│   │   │   │   ├── keyword-expansion-methods.md
-│   │   │   │   └── manual-ad-operating-characteristics.md
-│   │   │   ├── sponsored-brands-operating-characteristics.md
-│   │   │   └── sponsored-display-operating-characteristics.md
-│   │   └── three-basic-types-of-amazon-advertising.md
-│   ├── advertising-strategies/
-│   │   ├── a9-algorithm/
-│   │   │   ├── four-principles-of-a9-algorithm.md
-│   │   │   ├── main-factors-affecting-a9-algorithm.md
-│   │   │   └── what-is-a9-algorithm.md
-│   │   ├── ad-mode-and-applicability-analysis.md
-│   │   ├── beginner-strategies/
-│   │   │   ├── deepbi-beginner-strategies.md
-│   │   │   ├── deepbi-vs-traditional-beginner-analysis.md
-│   │   │   └── traditional-beginner-strategies.md
-│   │   ├── bidding-strategies/
-│   │   │   ├── bidding-strategy-by-ad-position.md
-│   │   │   └── bidding-strategy-by-campaign.md
-│   │   └── stable-period-strategies/
-│   │       ├── deepbi-stable-period-strategies.md
-│   │       ├── deepbi-vs-traditional-stable-period-analysis.md
-│   │       └── traditional-stable-period-strategies.md
-│   ├── amazon-advertising-overview.md
-│   ├── problem-solutions/
-│   │   ├── auto-ad-broad-dilemma-solution.md
-│   │   ├── budget-exhausted-sales-expectations-not-met.md
-│   │   ├── competitor-increased-delivery-sales-drop.md
-│   │   ├── high-conversion-budget-exhausted-solution.md
-│   │   ├── high-conversion-inventory-fluctuation.md
-│   │   ├── high-exposure-low-conversion-solution.md
-│   │   ├── intense-competition-broad-keywords-low-conversion.md
-│   │   ├── intense-competition-ranking-drop.md
-│   │   ├── keyword-instability-solution.md
-│   │   ├── keyword-product-mismatch-trap.md
-│   │   ├── limited-budget-intense-competition.md
-│   │   ├── long-tail-good-core-keywords-bad.md
-│   │   ├── multiple-price-increases-high-acos-solution.md
-│   │   ├── new-product-high-acos-solution.md
-│   │   ├── normal-ctr-low-conversion-solution.md
-│   │   ├── sales-growing-high-acos-solution.md
-│   │   ├── seasonal-product-advertising-challenges.md
-│   │   └── solve-click-surge-conversion-low-dilemma.md
-│   └── qa/
-│       ├── how-to-adjust-bidding-based-on-inventory.md
-│       ├── inventory-impact-on-budget.md
-│       ├── is-intentional-budget-overrun-okay.md
-│       ├── is-lower-bidding-better.md
-│       ├── is-lower-budget-better.md
-│       ├── reasons-for-increased-advertising-costs.md
-│       ├── reasons-for-no-ad-display.md
-│       └── why-excessive-acos-control-is-bad.md
-├── deepbi-advantages/
-│   ├── cannot-rapidly-improve-effects-in-short-term.md
-│   ├── other-non-technical-backgrounds.md
-│   └── starting-from-zero-quantity-leads-to-quality.md
-└── listing-operations/
-    ├── listing-operations-overview.md
-    └── listing-strategies/
-        ├── bullet-points-writing-techniques.md
-        ├── how-to-get-excellent-search-keywords.md
-        ├── image-layout.md
-        ├── listing-title-writing.md
-        ├── long-description-writing-techniques.md
-        ├── pricing-strategies.md
-        └── search-keyword-layout-strategies.md
-```
+### Amazon Advertising
+- **[Amazon Advertising Overview](en-US/amazon-advertising/amazon-advertising-overview.md)**
+
+#### Advertising Fundamentals
+- **[Basic Definitions](en-US/amazon-advertising/advertising-fundamentals/basic-definitions.md)**
+- **[Budget](en-US/amazon-advertising/advertising-fundamentals/budget.md)**
+- **[Evaluation Metrics](en-US/amazon-advertising/advertising-fundamentals/evaluation-metrics.md)**
+- **[Ad Display Ranking & Quality Score](en-US/amazon-advertising/advertising-fundamentals/ad-display-ranking-quality-score.md)**
+- **[Three Basic Types of Amazon Advertising](en-US/amazon-advertising/advertising-fundamentals/three-basic-types-of-amazon-advertising.md)**
+
+##### Advertising Principles
+- **[Amazon Advertising Conversion Logic and Factors](en-US/amazon-advertising/advertising-fundamentals/advertising-principles/amazon-advertising-conversion-logic-and-factors.md)**
+
+##### Products Suitable for PPC
+- **[Products Suitable for PPC Ads](en-US/amazon-advertising/advertising-fundamentals/products-suitable-for-ppc/products-suitable-for-ppc-ads.md)**
+- **[Products Not Suitable for PPC Ads](en-US/amazon-advertising/advertising-fundamentals/products-suitable-for-ppc/products-not-suitable-for-ppc-ads.md)**
+- **[Summary](en-US/amazon-advertising/advertising-fundamentals/products-suitable-for-ppc/summary.md)**
+
+##### Three Ad Types
+- **[Sponsored Products (SP) Ad Operating Characteristics](en-US/amazon-advertising/advertising-fundamentals/three-ad-types/sp-ad-operating-characteristics/)**
+  - **[ASIN Advertising Fundamentals](en-US/amazon-advertising/advertising-fundamentals/three-ad-types/sp-ad-operating-characteristics/asin-advertising-fundamentals.md)**
+  - **[Auto Ad Operating Characteristics](en-US/amazon-advertising/advertising-fundamentals/three-ad-types/sp-ad-operating-characteristics/auto-ad-operating-characteristics.md)**
+  - **[Keyword Expansion Methods](en-US/amazon-advertising/advertising-fundamentals/three-ad-types/sp-ad-operating-characteristics/keyword-expansion-methods.md)**
+  - **[Manual Ad Operating Characteristics](en-US/amazon-advertising/advertising-fundamentals/three-ad-types/sp-ad-operating-characteristics/manual-ad-operating-characteristics.md)**
+- **[Sponsored Brands Operating Characteristics](en-US/amazon-advertising/advertising-fundamentals/three-ad-types/sponsored-brands-operating-characteristics.md)**
+- **[Sponsored Display Operating Characteristics](en-US/amazon-advertising/advertising-fundamentals/three-ad-types/sponsored-display-operating-characteristics.md)**
+
+#### Advertising Strategies
+- **[Ad Mode and Applicability Analysis](en-US/amazon-advertising/advertising-strategies/ad-mode-and-applicability-analysis.md)**
+
+##### A9 Algorithm
+- **[What is A9 Algorithm](en-US/amazon-advertising/advertising-strategies/a9-algorithm/what-is-a9-algorithm.md)**
+- **[Four Principles of A9 Algorithm](en-US/amazon-advertising/advertising-strategies/a9-algorithm/four-principles-of-a9-algorithm.md)**
+- **[Main Factors Affecting A9 Algorithm](en-US/amazon-advertising/advertising-strategies/a9-algorithm/main-factors-affecting-a9-algorithm.md)**
+
+##### Beginner Strategies
+- **[DeepBI Beginner Strategies](en-US/amazon-advertising/advertising-strategies/beginner-strategies/deepbi-beginner-strategies.md)**
+- **[Traditional Beginner Strategies](en-US/amazon-advertising/advertising-strategies/beginner-strategies/traditional-beginner-strategies.md)**
+- **[DeepBI vs Traditional Beginner Analysis](en-US/amazon-advertising/advertising-strategies/beginner-strategies/deepbi-vs-traditional-beginner-analysis.md)**
+
+##### Bidding Strategies
+- **[Bidding Strategy by Ad Position](en-US/amazon-advertising/advertising-strategies/bidding-strategies/bidding-strategy-by-ad-position.md)**
+- **[Bidding Strategy by Campaign](en-US/amazon-advertising/advertising-strategies/bidding-strategies/bidding-strategy-by-campaign.md)**
+
+##### Stable Period Strategies
+- **[DeepBI Stable Period Strategies](en-US/amazon-advertising/advertising-strategies/stable-period-strategies/deepbi-stable-period-strategies.md)**
+- **[Traditional Stable Period Strategies](en-US/amazon-advertising/advertising-strategies/stable-period-strategies/traditional-stable-period-strategies.md)**
+- **[DeepBI vs Traditional Stable Period Analysis](en-US/amazon-advertising/advertising-strategies/stable-period-strategies/deepbi-vs-traditional-stable-period-analysis.md)**
+
+#### Problem Solutions
+- **[Auto Ad Broad Dilemma Solution](en-US/amazon-advertising/problem-solutions/auto-ad-broad-dilemma-solution.md)**
+- **[Budget Exhausted Sales Expectations Not Met](en-US/amazon-advertising/problem-solutions/budget-exhausted-sales-expectations-not-met.md)**
+- **[Competitor Increased Delivery Sales Drop](en-US/amazon-advertising/problem-solutions/competitor-increased-delivery-sales-drop.md)**
+- **[High Conversion Budget Exhausted Solution](en-US/amazon-advertising/problem-solutions/high-conversion-budget-exhausted-solution.md)**
+- **[High Conversion Inventory Fluctuation](en-US/amazon-advertising/problem-solutions/high-conversion-inventory-fluctuation.md)**
+- **[High Exposure Low Conversion Solution](en-US/amazon-advertising/problem-solutions/high-exposure-low-conversion-solution.md)**
+- **[Intense Competition Broad Keywords Low Conversion](en-US/amazon-advertising/problem-solutions/intense-competition-broad-keywords-low-conversion.md)**
+- **[Intense Competition Ranking Drop](en-US/amazon-advertising/problem-solutions/intense-competition-ranking-drop.md)**
+- **[Keyword Instability Solution](en-US/amazon-advertising/problem-solutions/keyword-instability-solution.md)**
+- **[Keyword Product Mismatch Trap](en-US/amazon-advertising/problem-solutions/keyword-product-mismatch-trap.md)**
+- **[Limited Budget Intense Competition](en-US/amazon-advertising/problem-solutions/limited-budget-intense-competition.md)**
+- **[Long Tail Good Core Keywords Bad](en-US/amazon-advertising/problem-solutions/long-tail-good-core-keywords-bad.md)**
+- **[Multiple Price Increases High ACOS Solution](en-US/amazon-advertising/problem-solutions/multiple-price-increases-high-acos-solution.md)**
+- **[New Product High ACOS Solution](en-US/amazon-advertising/problem-solutions/new-product-high-acos-solution.md)**
+- **[Normal CTR Low Conversion Solution](en-US/amazon-advertising/problem-solutions/normal-ctr-low-conversion-solution.md)**
+- **[Sales Growing High ACOS Solution](en-US/amazon-advertising/problem-solutions/sales-growing-high-acos-solution.md)**
+- **[Seasonal Product Advertising Challenges](en-US/amazon-advertising/problem-solutions/seasonal-product-advertising-challenges.md)**
+- **[Solve Click Surge Conversion Low Dilemma](en-US/amazon-advertising/problem-solutions/solve-click-surge-conversion-low-dilemma.md)**
+
+#### Q&A Section
+- **[How to Adjust Bidding Based on Inventory](en-US/amazon-advertising/qa/how-to-adjust-bidding-based-on-inventory.md)**
+- **[Inventory Impact on Budget](en-US/amazon-advertising/qa/inventory-impact-on-budget.md)**
+- **[Is Intentional Budget Overrun Okay](en-US/amazon-advertising/qa/is-intentional-budget-overrun-okay.md)**
+- **[Is Lower Bidding Better](en-US/amazon-advertising/qa/is-lower-bidding-better.md)**
+- **[Is Lower Budget Better](en-US/amazon-advertising/qa/is-lower-budget-better.md)**
+- **[Reasons for Increased Advertising Costs](en-US/amazon-advertising/qa/reasons-for-increased-advertising-costs.md)**
+- **[Reasons for No Ad Display](en-US/amazon-advertising/qa/reasons-for-no-ad-display.md)**
+- **[Why Excessive ACOS Control is Bad](en-US/amazon-advertising/qa/why-excessive-acos-control-is-bad.md)**
+
+### DeepBI Advantages
+- **[Cannot Rapidly Improve Effects in Short Term](en-US/deepbi-advantages/cannot-rapidly-improve-effects-in-short-term.md)**
+- **[Other Non-Technical Backgrounds](en-US/deepbi-advantages/other-non-technical-backgrounds.md)**
+- **[Starting from Zero Quantity Leads to Quality](en-US/deepbi-advantages/starting-from-zero-quantity-leads-to-quality.md)**
+
+### Listing Operations
+- **[Listing Operations Overview](en-US/listing-operations/listing-operations-overview.md)**
+
+#### Listing Strategies
+- **[Bullet Points Writing Techniques](en-US/listing-operations/listing-strategies/bullet-points-writing-techniques.md)**
+- **[How to Get Excellent Search Keywords](en-US/listing-operations/listing-strategies/how-to-get-excellent-search-keywords.md)**
+- **[Image Layout](en-US/listing-operations/listing-strategies/image-layout.md)**
+- **[Listing Title Writing](en-US/listing-operations/listing-strategies/listing-title-writing.md)**
+- **[Long Description Writing Techniques](en-US/listing-operations/listing-strategies/long-description-writing-techniques.md)**
+- **[Pricing Strategies](en-US/listing-operations/listing-strategies/pricing-strategies.md)**
+- **[Search Keyword Layout Strategies](en-US/listing-operations/listing-strategies/search-keyword-layout-strategies.md)**
 
 ## Document Statistics
 
@@ -188,4 +199,3 @@ We welcome contributions to improve this whitepaper. Please:
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
