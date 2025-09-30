@@ -1,96 +1,191 @@
-# 项目文件夹结构
+# DeepBI Amazon Advertising Whitepaper
 
-## Listing运营 文件夹结构
+<div align="center">
 
-```
-├── Listing运营策略/
-  ├── Listing中五点描述的写作技巧.md
-  ├── Listing中搜索关键词的布局策略.md
-  ├── Listing中长描述的写作手法.md
-  ├── Listing图片的布局.md
-  ├── Listing如何获取优秀的搜索关键词.md
-  ├── Listing标题的写法.md
-  ├── Listing的定价技巧.md
-├── Listing运营综述.md
-```
+**🌐 DeepBI Amazon Advertising Operations Manual**
 
-## 亚马逊广告运营 文件夹结构
+[English](#english) | [中文](zh-CN/README.md)
 
-```
-├── 亚马逊广告运营基础/
-  ├── 三种类型广告运营基础/
-    ├── 品牌推广广告（SB）运营特点及技巧.md
-    ├── 商品推广广告（SP）运营特点/
-      ├── ASIN广告运营基础.md
-      ├── 关键词拓展方法.md
-      ├── 手动广告（MANU）运营特点.md
-      ├── 自动广告（AUTO）运营特点.md
-    ├── 展示广告（SD）运营特点及技巧.md
-  ├── 亚马逊广告的三种基本类型.md
-  ├── 亚马逊广告运营基本原理/
-    ├── 亚马逊广告的转化逻辑及影响因素.md
-  ├── 什么是广告展现排名与质量得分，影响因素？.md
-  ├── 哪些产品适合投PPC广告哪些不适合/
-    ├── 不适合投PPC广告的商品类.md
-    ├── 小结.md
-    ├── 适合投PPC广告的商品类.md
-  ├── 基础定义.md
-  ├── 评价指标.md
-  ├── 预算.md
-├── 亚马逊广告运营概述.md
-├── 亚马逊广告运营策略/
-  ├── A9算法/
-    ├── A9算法的主要影响因素.md
-    ├── A9算法的四大原理.md
-    ├── 什么是A9算法.md
-  ├── 广告模式与适用性分析.md
-  ├── 竞价策略/
-    ├── 根据广告位的竞价策略.md
-    ├── 根据广告活动的竞价策略.md
-  ├── 适合新手的亚马逊广告打法/
-    ├── DeepBI与传统新手时期亚马逊广告打法的优劣分析.md
-    ├── DeepBI新手时期的亚马逊广告主流打法.md
-    ├── 传统新手时期的亚马逊广告主流打法.md
-  ├── 适合稳定时期的亚马逊广告打法/
-    ├── DeepBI与传统稳定时期亚马逊广告打法的优劣分析.md
-    ├── DeepBI稳定时期的亚马逊广告主流打法.md
-    ├── 传统稳定时期的亚马逊广告主流打法.md
-├── 常见的Q-A/
-  ├── 导致广告成本增高的原因.md
-  ├── 广告出价设置是否越低越好.md
-  ├── 广告没有展现的原因.md
-  ├── 广告预算设置是否越低越好.md
-  ├── 库存对预算是否有影响.md
-  ├── 应该如何根据库存情况调整出价.md
-  ├── 故意让预算超出一点点可以吗.md
-  ├── 过分控制ACOS为什么不行.md
-├── 问题-策略方法/
-  ├── 关键词与产品不匹配的致命陷阱.md
-  ├── 关键词表现不稳定与广告效果波动的解决之道.md
-  ├── 多次提价但ACOS居高不下的破解之道.md
-  ├── 季节性产品的广告运营挑战与破局之道.md
-  ├── 市场竞争激烈，大词流量大，但是转化率低.md
-  ├── 广告投放表现好，但是竞争对手增大投放力度，导致销量降低.md
-  ├── 广告预算耗尽，依然未达到销量预期.md
-  ├── 新产品启动后ACOS偏高的破局之道.md
-  ├── 点击率正常但转化率低的深度解决方案.md
-  ├── 破解“点击量低但转化率正常”的困局.md
-  ├── 破解点击暴增转化低迷的困局.md
-  ├── 竞争激烈，导致广告排名下降怎么办.md
-  ├── 自动广告的宽泛困境与智能解法.md
-  ├── 转化率高但库存波动影响持续销售.md
-  ├── 销量不断提高,但ACOS居高不下.md
-  ├── 长尾词表现好但核心词差怎么办.md
-  ├── 预算有限如何应对激烈竞争.md
-  ├── 高曝光低转化的困境与破局之道.md
-  ├── 高转化率却预算耗尽的破局之道.md
-```
+</div>
 
-## DeepBI其它优势 文件夹结构
+---
+
+## English
+
+This repository contains DeepBI's comprehensive Amazon advertising operations manual and whitepaper, covering fundamental concepts, strategies, problem-solving approaches, and best practices for Amazon advertising optimization.
+
+## About DeepBI
+
+**DeepBI** is DeepInsight's AI-powered Amazon advertising intelligence platform, trusted by thousands of sellers worldwide. DeepInsight is a global SaaS company dedicated to revolutionizing how Amazon sellers manage their advertising. We leverage AI-driven automation and advanced analytics to simplify campaign management, optimize performance, and drive sustainable growth.
+
+### Why Choose DeepBI?
+
+- **AI-Powered Optimization**: Advanced machine learning algorithms that continuously improve your campaigns
+- **Global Trust**: Trusted by sellers across multiple countries and regions
+- **Amazon SPN Partner**: Official Amazon Service Provider Network member
+- **Proven Results**: Average 32% ACOS reduction, 47% sales growth in 90 days, 85% time saved
+- **Organic Growth Engine**: Beyond reducing ACOS, actively drives organic sales growth
+- **Scalable Solutions**: From solo sellers to enterprise teams managing 10+ ASINs
+
+Learn more about DeepBI: **[deepbi.com](https://www.deepbi.com/)**
+
+## Project Overview
+
+This whitepaper serves as a complete guide for Amazon advertising operations, including:
+- **Advertising Fundamentals**: Core concepts, metrics, and basic definitions
+- **Advertising Strategies**: A9 algorithm insights, bidding strategies, and campaign optimization
+- **Problem Solutions**: Common advertising challenges and their solutions
+- **Q&A Section**: Frequently asked questions and expert answers
+- **DeepBI Advantages**: Unique benefits of DeepBI's approach
+- **Listing Operations**: Product listing optimization strategies
+
+## en-US Directory Structure
 
 ```
-├── DeepBI不能在短期时间内迅速提升效果.md
-├── DeepBI从0开始，量变引起质变.md
-├── DeepBI的其它非技术背景.md
+en-US/
+├── amazon-advertising/
+│   ├── advertising-fundamentals/
+│   │   ├── ad-display-ranking-quality-score.md
+│   │   ├── advertising-principles/
+│   │   │   └── amazon-advertising-conversion-logic-and-factors.md
+│   │   ├── basic-definitions.md
+│   │   ├── budget.md
+│   │   ├── evaluation-metrics.md
+│   │   ├── products-suitable-for-ppc/
+│   │   │   ├── products-not-suitable-for-ppc-ads.md
+│   │   │   ├── products-suitable-for-ppc-ads.md
+│   │   │   └── summary.md
+│   │   ├── three-ad-types/
+│   │   │   ├── sp-ad-operating-characteristics/
+│   │   │   │   ├── asin-advertising-fundamentals.md
+│   │   │   │   ├── auto-ad-operating-characteristics.md
+│   │   │   │   ├── keyword-expansion-methods.md
+│   │   │   │   └── manual-ad-operating-characteristics.md
+│   │   │   ├── sponsored-brands-operating-characteristics.md
+│   │   │   └── sponsored-display-operating-characteristics.md
+│   │   └── three-basic-types-of-amazon-advertising.md
+│   ├── advertising-strategies/
+│   │   ├── a9-algorithm/
+│   │   │   ├── four-principles-of-a9-algorithm.md
+│   │   │   ├── main-factors-affecting-a9-algorithm.md
+│   │   │   └── what-is-a9-algorithm.md
+│   │   ├── ad-mode-and-applicability-analysis.md
+│   │   ├── beginner-strategies/
+│   │   │   ├── deepbi-beginner-strategies.md
+│   │   │   ├── deepbi-vs-traditional-beginner-analysis.md
+│   │   │   └── traditional-beginner-strategies.md
+│   │   ├── bidding-strategies/
+│   │   │   ├── bidding-strategy-by-ad-position.md
+│   │   │   └── bidding-strategy-by-campaign.md
+│   │   └── stable-period-strategies/
+│   │       ├── deepbi-stable-period-strategies.md
+│   │       ├── deepbi-vs-traditional-stable-period-analysis.md
+│   │       └── traditional-stable-period-strategies.md
+│   ├── amazon-advertising-overview.md
+│   ├── problem-solutions/
+│   │   ├── auto-ad-broad-dilemma-solution.md
+│   │   ├── budget-exhausted-sales-expectations-not-met.md
+│   │   ├── competitor-increased-delivery-sales-drop.md
+│   │   ├── high-conversion-budget-exhausted-solution.md
+│   │   ├── high-conversion-inventory-fluctuation.md
+│   │   ├── high-exposure-low-conversion-solution.md
+│   │   ├── intense-competition-broad-keywords-low-conversion.md
+│   │   ├── intense-competition-ranking-drop.md
+│   │   ├── keyword-instability-solution.md
+│   │   ├── keyword-product-mismatch-trap.md
+│   │   ├── limited-budget-intense-competition.md
+│   │   ├── long-tail-good-core-keywords-bad.md
+│   │   ├── multiple-price-increases-high-acos-solution.md
+│   │   ├── new-product-high-acos-solution.md
+│   │   ├── normal-ctr-low-conversion-solution.md
+│   │   ├── sales-growing-high-acos-solution.md
+│   │   ├── seasonal-product-advertising-challenges.md
+│   │   └── solve-click-surge-conversion-low-dilemma.md
+│   └── qa/
+│       ├── how-to-adjust-bidding-based-on-inventory.md
+│       ├── inventory-impact-on-budget.md
+│       ├── is-intentional-budget-overrun-okay.md
+│       ├── is-lower-bidding-better.md
+│       ├── is-lower-budget-better.md
+│       ├── reasons-for-increased-advertising-costs.md
+│       ├── reasons-for-no-ad-display.md
+│       └── why-excessive-acos-control-is-bad.md
+├── deepbi-advantages/
+│   ├── cannot-rapidly-improve-effects-in-short-term.md
+│   ├── other-non-technical-backgrounds.md
+│   └── starting-from-zero-quantity-leads-to-quality.md
+└── listing-operations/
+    ├── listing-operations-overview.md
+    └── listing-strategies/
+        ├── bullet-points-writing-techniques.md
+        ├── how-to-get-excellent-search-keywords.md
+        ├── image-layout.md
+        ├── listing-title-writing.md
+        ├── long-description-writing-techniques.md
+        ├── pricing-strategies.md
+        └── search-keyword-layout-strategies.md
 ```
+
+## Document Statistics
+
+- **Total Documents**: 65 files
+- **Directories**: 17 directories  
+- **Language Support**: English (en-US) and Chinese (zh-CN)
+- **Total Chinese Documents**: 67 files (including images and additional content)
+
+## Content Categories
+
+1. **Amazon Advertising Fundamentals** (13 documents)
+2. **Advertising Strategies** (10 documents) 
+3. **Problem Solutions** (19 documents)
+4. **Q&A Section** (8 documents)
+5. **DeepBI Advantages** (3 documents)
+6. **Listing Operations** (8 documents)
+7. **Overview Documents** (4 documents)
+
+## Quick Start
+
+1. **English Users**: Navigate to `en-US/` directory
+2. **Chinese Users**: Navigate to `zh-CN/` directory  
+3. **Choose Topics**: Select relevant chapters based on your needs
+
+## DeepBI Platform Features
+
+### Core Capabilities
+- **Smart Ad Optimization**: Automated campaign creation, launch, and optimization
+- **Keyword & Competitor Targeting**: Intelligent mining of long-tail keywords and competitor ASINs
+- **ACOS Lowering Engine**: Intelligent ACoS control for precise ad targeting
+- **Auto Budget Optimization**: Dynamic budget allocation to top-performing campaigns
+- **Performance Comparison**: Real-time insights and performance tracking
+
+### AI Principles
+1. **Broad Traffic Discovery**: Explore long-tail keywords and competitor ASINs
+2. **Balance Exploration & Conversion**: Find the sweet spot between discovery and results
+3. **Smart Budget Flow**: Allocate budget where it matters most
+4. **Tiered Bidding Strategy**: Optimize bids based on performance tiers
+5. **Traffic Reinforcement Matrix**: Seamless flow across AUTO, MANUAL, and ASIN campaigns
+6. **Organic Growth Engine**: Boost organic sales share and lower TACOS
+
+### Trusted by Global Sellers
+- **1000+** Amazon PPC Sellers across 15+ countries
+- **$50M+** Amazon PPC Ad Spend under monthly optimization
+- **99.9%** Uptime guarantee with 24/7 monitoring
+- **4.9/5** Customer rating from verified users
+
+---
+
+**Ready to optimize your Amazon ads?** Visit **[deepbi.com](https://www.deepbi.com/)** to learn more about our AI-powered Amazon advertising platform.
+
+## Contributing
+
+We welcome contributions to improve this whitepaper. Please:
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
 
